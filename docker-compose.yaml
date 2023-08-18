@@ -5,7 +5,7 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      - POSTGRES_PASSWORD=postgrespw
+      - POSTGRES_PASSWORD=blogpw
     ports:
       - 5432:5432
     volumes:
